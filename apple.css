@@ -1,15 +1,31 @@
 #container {
 	width: fit-content;
-	padding: 1em;
+	height: fit-content;
+	padding-left: 1em;
+	padding-right: 1em;
 	height: 186px;
 	border-radius: 20px;
 	background: rgba(118, 118, 118, 0.1);
 	margin: auto;
+	margin-top: 50px;
 }
 
 #item {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 136px;
+	/*height: 130px;*/
+	/*background: black;*/
+	margin-top: 25px;
+	border-radius: 10px; 
+}
+
+#picture {
+	height: 136px;
 	background: black;
+	border-radius: 10px;
+}
+
+#name {
+	height: 25px;
+	background: blue;
 }
