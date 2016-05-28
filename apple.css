@@ -1,7 +1,15 @@
 #container {
-	width: 400px;
+	width: fit-content;
+	padding: 1em;
 	height: 186px;
 	border-radius: 20px;
 	background: rgba(118, 118, 118, 0.1);
 	margin: auto;
+}
+
+#item {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: black;
 }
