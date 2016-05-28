@@ -30,7 +30,7 @@
 }
 
 p {
-	color: rgb(118,118,118);
+	color: rgb(118, 118, 118);
 	-webkit-margin-before:0em;
 	-webkit-margin-after:0em;
 	text-align: center;
@@ -38,5 +38,17 @@ p {
 	top: 4px;
 	font-size: 18px;
 	font-family: Arial;
+}
 
+#picture {
+	background: black;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	position: relative;
+	top: 18px;
+}
+
+#item:hover {
+	background: black;
 }
