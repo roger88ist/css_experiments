@@ -13,10 +13,9 @@
 #item {
 	display: inline-block;
 	width: 136px;
-	/*height: 130px;*/
-	/*background: black;*/
+	height: 150px;
 	margin-top: 25px;
-	border-radius: 10px; 
+	border-radius: 10px;
 }
 
 #canvas {
@@ -38,6 +37,7 @@ p {
 	top: 4px;
 	font-size: 18px;
 	font-family: Arial;
+	display: none;
 }
 
 #picture {
@@ -47,8 +47,6 @@ p {
 	margin: auto;
 	position: relative;
 	top: 18px;
+	border-radius: 10px;
 }
 
-/*#item:hover {
-	background: black;
-}*/
